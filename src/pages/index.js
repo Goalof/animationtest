@@ -54,6 +54,39 @@ export default (() => {
 				</Box>
 			</Section>
 		</Components.Animation>
+		<Components.Animation
+			trigger="Onload"
+			animation="Fly In"
+			iteration="once"
+			duration="2s"
+			test
+		>
+			<Section
+				background="linear-gradient(0deg,rgba(4, 8, 12, 0.6) 0%,rgba(4, 8, 12, 0.6) 100%),--color-darkL2 url(https://images.unsplash.com/photo-1510125594188-5afc74c8cc43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80) center/cover"
+				padding="64px 0"
+				sm-padding="40px 0"
+				color="--light"
+				font="--base"
+			>
+				<Stack>
+					<StackItem width="75%" lg-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" />
+						<Text color="--lightD2" letter-spacing="1px" text-transform="uppercase" margin="0">
+							Excellence in everything
+						</Text>
+						<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0">
+							Striving for perfection in everything we do. Unparalleled service for everyone.
+						</Text>
+					</StackItem>
+				</Stack>
+				<Box text-align="center" margin="96px 0 0 0">
+					<Text margin="8px 0" text-transform="uppercase">
+						Who we are
+					</Text>
+					<Icon category="md" margin="0 auto" icon={MdArrowDownward} />
+				</Box>
+			</Section>
+		</Components.Animation>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
