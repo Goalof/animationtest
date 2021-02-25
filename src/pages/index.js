@@ -17,7 +17,7 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
 		<Section>
-			<Components.Animation>
+			<Components.Animation animation="Slide In" trigger="Click" test={false}>
 				<Image src="https://images.unsplash.com/photo-1611095564985-89765398121e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000" width="100%" />
 			</Components.Animation>
 		</Section>
